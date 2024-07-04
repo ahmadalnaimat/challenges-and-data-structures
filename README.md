@@ -8,3 +8,4 @@
 4. [Whiteboard Challange 04](./whiteboard-challenges/cc-04/cc-04.md)
 5. [Whiteboard Challange 05](./Challenges/cc-05/cc-05.md)
 6. [Whiteboard Challange 06](./Challenges/cc-06/cc-06.md)
+7. [Whiteboard Challange 07](./Challenges/cc-07/cc-07.md)
