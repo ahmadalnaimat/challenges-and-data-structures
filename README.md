@@ -9,3 +9,4 @@
 5. [Whiteboard Challange 05](./Challenges/cc-05/cc-05.md)
 6. [Whiteboard Challange 06](./Challenges/cc-06/cc-06.md)
 7. [Whiteboard Challange 07](./Challenges/cc-07/cc-07.md)
+8. [Whiteboard Challange 08](./Data%20Structures/cc-08/cc-08.md)
