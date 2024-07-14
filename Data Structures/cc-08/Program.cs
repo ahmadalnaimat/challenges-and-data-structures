@@ -98,7 +98,7 @@ public class LinkedList
         Console.WriteLine("Null");
     }
 
-    public void Add(int data)
+    public void AddLast(int data)
     {
         Node newNode = new Node(data);
 
@@ -114,6 +114,12 @@ public class LinkedList
             current = current.Next;
         }
         current.Next = newNode;
+    }
+    public void AddFirst(int data)
+    {
+        Node newNode = new Node(data);
+        newNode.Next = head;
+        head = newNode;
     }
 
     public override string ToString()
