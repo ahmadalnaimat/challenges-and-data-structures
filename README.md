@@ -11,3 +11,4 @@
 7. [Whiteboard Challange 07](./Challenges/cc-07/cc-07.md)
 8. [Whiteboard Challange 08](./Data%20Structures/cc-08/cc-08.md)
 9. [Whiteboard Challange 09](./Data%20Structures/cc-09/cc-09.md)
+10. [Whiteboard Challange 10](./Data%20Structures/cc-10/cc-10.md)
