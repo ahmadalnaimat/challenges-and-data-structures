@@ -18,3 +18,5 @@
 14. [Whiteboard Challange 14](./Data%20Structures/cc-14/cc-14.md)
 15. [Whiteboard Challange 15](./Trees/cc-15/cc-15.md)
 16. [Whiteboard Challange 16](./Trees/cc-16/cc-16.md)
+17. [Whiteboard Challange 17](./Trees/cc-17/cc-17.md)
+18. [Whiteboard Challange 18](./Trees/cc-18/cc-18.md)
