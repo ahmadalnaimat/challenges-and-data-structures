@@ -20,3 +20,4 @@
 16. [Whiteboard Challange 16](./Trees/cc-16/cc-16.md)
 17. [Whiteboard Challange 17](./Trees/cc-17/cc-17.md)
 18. [Whiteboard Challange 18](./Trees/cc-18/cc-18.md)
+19. [Whiteboard Challange 19](./Trees/cc-19/cc-19.md)
