@@ -3,50 +3,43 @@ using Xunit;
 public class BinaryTreeTests
 {
     [Fact]
-    public void FindSecondMax()
+    public void ReturnsCorrectValues()
     {
-        TNode root = new TNode(10);
-        root.Left = new TNode(5);
-        root.Right = new TNode(20);
-        root.Left.Left = new TNode(3);
-        root.Left.Right = new TNode(7);
-        root.Right.Left = new TNode(15);
-        root.Right.Right = new TNode(25);
+        TNode Root = new TNode(5);
+        Root.Left = new TNode(13);
+        Root.Right = new TNode(7);
+        Root.Left.Left = new TNode(3);
+        Root.Left.Right = new TNode(7);
+        Root.Right.Left = new TNode(12);
+        Root.Right.Right = new TNode(20);
+        Root.Left.Left.Left = new TNode(1);
+        Root.Left.Left.Right = new TNode(4);
+        Root.Right.Left.Right = new TNode(11);
+        BinaryTree Btree = new BinaryTree(Root);
 
-        Program.BinaryTree btree = new Program.BinaryTree(root);
+        List<int> largestValues = Btree.LargestValueEachLevel();
 
-        int? secondMax = btree.FindSecondMax();
-
-        Assert.Equal(20, secondMax);
+        Assert.Equal(new List<int> { 5, 13, 20, 11 }, largestValues);
     }
 
     [Fact]
-    public void OneUniqueValue()
+    public void ReturnsEmptyList()
     {
-        TNode root = new TNode(10);
-        root.Left = new TNode(10);
-        root.Right = new TNode(10);
+        BinaryTree Btree = new BinaryTree();
 
-        Program.BinaryTree btree = new Program.BinaryTree(root);
+        List<int> largestValues = Btree.LargestValueEachLevel();
 
-        int? secondMax = btree.FindSecondMax();
-
-        Assert.Null(secondMax);
+        Assert.Empty(largestValues);
     }
 
     [Fact]
-    public void NegativeValues()
+    public void ReturnsSingleValue()
     {
-        TNode root = new TNode(-10);
-        root.Left = new TNode(-20);
-        root.Right = new TNode(-5);
-        root.Left.Left = new TNode(-30);
-        root.Left.Right = new TNode(-15);
+        TNode Root = new TNode(42);
+        BinaryTree Btree = new BinaryTree(Root);
 
-        Program.BinaryTree btree = new Program.BinaryTree(root);
+        List<int> largestValues = Btree.LargestValueEachLevel();
 
-        int? secondMax = btree.FindSecondMax();
-
-        Assert.Equal(-10, secondMax);
+        Assert.Equal(new List<int> { 42 }, largestValues);
     }
 }
