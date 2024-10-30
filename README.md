@@ -25,3 +25,4 @@
 21. [Whiteboard Challange 21](./Trees/cc-21/cc-21.md)
 22. [Whiteboard Challange 22](./Trees/cc-22/cc-22.md)
 23. [Whiteboard Challange 23](./Trees/cc-23/cc-23.md)
+24. [Whiteboard Challange 24](./Trees/cc-24/cc-24.md)
